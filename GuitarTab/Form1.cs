@@ -16,6 +16,7 @@ namespace GuitarTab
         //char E, A, D, G, B, e;
         //   6, 5, 4, 3, 2, 1
         string str;
+        bool start_e = false;
 
         public Form1()
         {
@@ -29,7 +30,8 @@ namespace GuitarTab
                 str = textBox1.Text;
                 button2.Enabled = true;
                 button3.Enabled = true;
-            }else
+            }
+            else
             {
                 Console.WriteLine("TextBox is empty");
             }
@@ -44,26 +46,25 @@ namespace GuitarTab
         {
             CheckBox[] eArr = { e0, e1, e2, e3 };
             char ee = str[i];
-            int temp;
-            if(ee == 'e') //beginning
+            if (ee == 'e' || start_e) //beginning
             {
                 i++;
                 ee = str[i];
-                if (ee == '|') //probably a tab
+                if (ee == '|' || start_e) //probably a tab
                 {
-                    while(!System.Char.IsDigit(ee))
+                    start_e = true;
+                    while (!System.Char.IsDigit(ee))
                     {
                         i++; //increase index until we hit a number
                         ee = str[i];
                     }//Found number!                                    (only works for single digits currently)
                     Console.WriteLine(ee);
-                    temp = ee;
-                    Console.WriteLine(temp);
-                    eArr[ee-48].Checked = true;
-                    
+                    eArr[ee - 48].Checked = true;
+
 
                 }
-            }else
+            }
+            else
             {
                 Console.WriteLine("Tab issue");
             }

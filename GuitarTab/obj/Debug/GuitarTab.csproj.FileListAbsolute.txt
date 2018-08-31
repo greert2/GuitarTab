@@ -7,3 +7,12 @@ c:\users\tyler\documents\visual studio 2015\Projects\GuitarTab\GuitarTab\obj\Deb
 c:\users\tyler\documents\visual studio 2015\Projects\GuitarTab\GuitarTab\obj\Debug\GuitarTab.csproj.GenerateResource.Cache
 c:\users\tyler\documents\visual studio 2015\Projects\GuitarTab\GuitarTab\obj\Debug\GuitarTab.exe
 c:\users\tyler\documents\visual studio 2015\Projects\GuitarTab\GuitarTab\obj\Debug\GuitarTab.pdb
+C:\Users\Tyler\GuitarTab\GuitarTab\bin\Debug\GuitarTab.exe.config
+C:\Users\Tyler\GuitarTab\GuitarTab\obj\Debug\GuitarTab.exe
+C:\Users\Tyler\GuitarTab\GuitarTab\obj\Debug\GuitarTab.pdb
+C:\Users\Tyler\GuitarTab\GuitarTab\bin\Debug\GuitarTab.exe
+C:\Users\Tyler\GuitarTab\GuitarTab\bin\Debug\GuitarTab.pdb
+C:\Users\Tyler\GuitarTab\GuitarTab\obj\Debug\GuitarTab.csprojResolveAssemblyReference.cache
+C:\Users\Tyler\GuitarTab\GuitarTab\obj\Debug\GuitarTab.Form1.resources
+C:\Users\Tyler\GuitarTab\GuitarTab\obj\Debug\GuitarTab.Properties.Resources.resources
+C:\Users\Tyler\GuitarTab\GuitarTab\obj\Debug\GuitarTab.csproj.GenerateResource.Cache
