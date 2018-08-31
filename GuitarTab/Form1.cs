@@ -44,7 +44,11 @@ namespace GuitarTab
 
         private void button3_Click(object sender, EventArgs e)
         {
-            CheckBox[] eArr = { e0, e1, e2, e3 };
+            CheckBox[] eArr = { ee0, ee1, ee2, ee3 };
+            foreach(CheckBox box in eArr)
+            {
+                box.Checked = false;
+            }
             char ee = str[i];
             if (ee == 'e' || start_e) //beginning
             {
@@ -60,8 +64,6 @@ namespace GuitarTab
                     }//Found number!                                    (only works for single digits currently)
                     Console.WriteLine(ee);
                     eArr[ee - 48].Checked = true;
-
-
                 }
             }
             else
@@ -72,5 +74,9 @@ namespace GuitarTab
             //i++;
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
